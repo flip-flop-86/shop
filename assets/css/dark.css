@@ -1,0 +1,169 @@
+/* ==========================================
+   تم تیره - Dark Mode
+   ========================================== */
+
+body.dark-mode {
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface-hover: #334155;
+    --text: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --border: #334155;
+    
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.dark-mode .main-header,
+.dark-mode .main-nav,
+.dark-mode .mobile-menu,
+.dark-mode .product-card,
+.dark-mode .product-detail,
+.dark-mode .product-tabs,
+.dark-mode .cart-page,
+.dark-mode .cart-summary,
+.dark-mode .checkout-form,
+.dark-mode .auth-card,
+.dark-mode .profile-sidebar,
+.dark-mode .profile-content,
+.dark-mode .filters-sidebar,
+.dark-mode .order-card,
+.dark-mode .address-card,
+.dark-mode .review-card,
+.dark-mode .specs-table,
+.dark-mode .admin-content,
+.dark-mode .card {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+.dark-mode .top-bar {
+    background: #020617;
+}
+
+.dark-mode .search-box form {
+    background: #0f172a;
+    border-color: #334155;
+}
+
+.dark-mode .search-box input {
+    color: #e2e8f0;
+}
+
+.dark-mode .product-card:hover,
+.dark-mode .category-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.dark-mode .product-card-title a,
+.dark-mode .cart-product-name a {
+    color: #e2e8f0;
+}
+
+.dark-mode .product-card-title a:hover,
+.dark-mode .cart-product-name a:hover {
+    color: #818cf8;
+}
+
+.dark-mode .current-price {
+    color: #e2e8f0;
+}
+
+.dark-mode .product-price-section,
+.dark-mode .product-card-image,
+.dark-mode .cart-product-img,
+.dark-mode .product-gallery-main,
+.dark-mode .specs-table tr:nth-child(odd),
+.dark-mode .cart-table thead,
+.dark-mode .order-item-img,
+.dark-mode .product-gallery-thumb {
+    background: #0f172a;
+}
+
+.dark-mode .btn-secondary {
+    background: #334155;
+    color: #e2e8f0;
+}
+
+.dark-mode .btn-secondary:hover {
+    background: #475569;
+}
+
+.dark-mode .btn-outline {
+    border-color: #475569;
+    color: #e2e8f0;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group select,
+.dark-mode .form-group textarea {
+    background: #0f172a;
+    border-color: #334155;
+    color: #e2e8f0;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group select:focus,
+.dark-mode .form-group textarea:focus {
+    border-color: #818cf8;
+}
+
+.dark-mode .form-group label {
+    color: #94a3b8;
+}
+
+.dark-mode .header-action:hover,
+.dark-mode .theme-toggle:hover {
+    background: #334155;
+}
+
+.dark-mode .quantity-selector {
+    border-color: #334155;
+}
+
+.dark-mode .quantity-selector button {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.dark-mode .quantity-selector input {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.dark-mode .tab-btn {
+    color: #94a3b8;
+}
+
+.dark-mode .tab-btn:hover {
+    color: #e2e8f0;
+}
+
+.dark-mode .tab-btn.active {
+    color: #818cf8;
+}
+
+.dark-mode .address-card {
+    border-color: #334155;
+}
+
+.dark-mode .address-card.default {
+    background: #1e1b4b;
+    border-color: #6366f1;
+}
+
+.dark-mode .mobile-menu {
+    background: #1e293b;
+}
+
+.dark-mode .mobile-menu a:hover {
+    background: #334155;
+}
+
+.dark-mode .badge {
+    border-color: #1e293b;
+}
+
+.dark-mode .footer-social a {
+    background: rgba(255,255,255,0.05);
+}
